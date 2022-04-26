@@ -1,8 +1,3 @@
-import { storageService } from './storage.service.js'
-// import { utilService } from './util.service.js'
-// import { bookService } from './book.service'
-
-const YT_KEY = `AIzaSyAUhix-T65YKr_HHtSgVKd7DHKNapvre4Y`
 
 export const googleApiService = {
     getBookApi,
