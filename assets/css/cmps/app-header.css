@@ -1,0 +1,30 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-content: center;
+  align-items: center;
+  background-image: linear-gradient(#c0beb8, #383838);
+}
+
+.app-header * {
+  margin: 0 10px 0 10px;
+}
+.app-header h3{
+    font-size: 25px;
+    color: gold;
+}
+.app-header nav *{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;   
+}
+
+.app-header nav *:hover{
+    color: gold;   
+}
+
+.app-header nav>*:not(:last-child) {
+    margin-inline-end: 10px;
+}
+

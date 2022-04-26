@@ -1,0 +1,32 @@
+
+
+
+.book-filter form{
+    background-color: #383838;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.book-filter form input{
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 0px;
+    border-radius: 5px;
+    width: 140px;
+}
+
+.book-filter form label{
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.book-filter form .input-btn {
+    width: 80px;
+}
+
+

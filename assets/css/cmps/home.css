@@ -1,0 +1,10 @@
+.home h3 {
+  font-size: 40px;
+  font-family: Roboto-Bold;
+}
+
+.home .lorem {
+  display: inline-block;
+  font-size: 20px;
+  width: 500px;
+}

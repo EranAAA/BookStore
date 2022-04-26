@@ -1,0 +1,38 @@
+.input-search {
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.list-result {
+    position: absolute;
+    background-color: aliceblue;
+    color: black;
+    margin-top: 0;
+    text-align: left;
+    list-style-type: none;
+    line-height: 30px;
+    margin-left: 93px;
+    font-size: 14px;
+    width: 400px;
+    padding-left: 0px;
+}
+
+.list-result *:hover {
+    background-color: aquamarine;
+}
+.list-result * {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;    
+}
+
+.list-result * button {
+    background-color: unset;
+    border: unset;
+    font-size: 20px;
+    cursor: pointer;
+}
